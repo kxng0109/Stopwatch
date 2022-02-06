@@ -1,0 +1,23 @@
+*{
+	color: var(--color1);
+	transition: color 1s;
+}
+
+:root .dark{
+	--color1: white;
+	--bgcolor: hsl(0, 0%, 25%);/*container*/
+	--otherbg: hsl(54, 100%, 10%);/*the entire document*/
+	--headerbg: hsl(114, 100%, 10%);
+	--color2: white;
+	--color3: var(--color2);
+	--color4: grey;
+}
+
+#container{
+	box-shadow: 5px 5px 5px hsl(0, 0%, 0%);
+}
+
+.dark .btn:hover{
+	color: var(--bgcolor);
+	background: hsl(263, 100%, 96%);
+}
